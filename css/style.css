@@ -1,0 +1,119 @@
+h3,h1,h2,h4,h5,h6
+{
+  font-family: 'Karla', sans-serif;
+  font-weight: 700;
+}
+p
+{
+  font-family: 'Karla', sans-serif;
+  font-weight: 400;
+}
+.card
+{
+  margin: auto;
+  width:60%;
+  height:600px;
+  border-radius: 10px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+  margin-top: 50px;
+}
+.item3
+{
+  padding: 2em;
+  width:100%;
+  flex-grow: 1;
+  overflow: hidden;
+  line-height: 2;
+}
+.container2
+{
+  display: flex;
+  height: 50%;
+}
+.container1
+{
+  display: flex;
+  height: 50%;
+  overflow: hidden;
+}
+.item1
+{
+  padding: 2em;
+  width:50%;
+  flex-grow: 1;
+  overflow: hidden;
+  background-color: hsl(179, 62%, 43%);
+  line-height:2.5;
+  color: white;
+}
+.item2
+{
+  padding: 2em;
+  width:50%;
+  flex-grow: 1;
+  overflow: hidden;
+  background-color:  #4ABEBD;
+  line-height: 2;
+  color: white;
+}
+.item2 p
+{
+  width:60%;
+}
+.item1 .btn
+{
+  background-color: #BFDF32;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+.item3 h4
+{
+  color: #BFDF32;
+}
+  .item3 h3
+  {
+    color: hsl(179, 62%, 43%);
+   width: 100%;
+   margin-bottom: 40px;
+  }
+  .item3 p
+  {
+    width:85%;
+    color: lightgrey;
+  }
+  footer
+  {
+    width:30%;
+    display: block;
+    margin: auto;
+  }
+@media (max-width:900px)  {
+
+  .card
+  {
+    width: 90%;
+    text-align: center;
+    height: auto;
+  }
+  .container2 p
+  {
+    margin: auto;
+  }
+.container1
+{
+flex-direction: column;
+width: 100%;
+}
+.item1,.item2
+{
+width: 100%;
+}
+.item2 p
+{
+  width:90%;
+  margin: auto;
+}
+footer
+{
+  width: 90%;
+}
+}
